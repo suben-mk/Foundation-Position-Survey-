@@ -4,12 +4,12 @@ import csv
 
 ################################## Function List ##################################
 
-# Convert Angle : แปลงมุม
+# Convert Angle : แปลงมุม (Credit Prajuab Riabroy's Blog)
 PI = np.pi
 DEG2RAD = PI / 180.0
 RAD2DEG= 180.0 / PI
 
-# แปลง degree > deg,min,sec
+# แปลง degree > deg,min,sec (Credit Prajuab Riabroy's Blog)
 def deg2dms(dd):
   sign=1
   if (dd < 0):
@@ -19,7 +19,7 @@ def deg2dms(dd):
   degrees, minutes = divmod(minutes,60)
   return (sign, degrees, minutes, seconds)
 
-# แปลง deg,min,sec > deg - min - sec
+# แปลง deg,min,sec > deg - min - sec (Credit Prajuab Riabroy's Blog)
 def DMS2str(degree, minute, second, numdec):
   degree = abs(degree); minute = abs(minute); second = abs(second)
   s ='{:.%df}' % numdec
