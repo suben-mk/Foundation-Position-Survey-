@@ -5,4 +5,3 @@ Foundation Position (Survey)
 เพื่อช่วยลดเวลาในการทำงานของวิศวกรสำรวจ
 
 Suben.M
-Survey Engineer
