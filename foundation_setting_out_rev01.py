@@ -1,4 +1,4 @@
-# Foundation Computation Program Rev.01
+# Foundation Setting Out Program Rev.01
 import numpy as np 
 import csv 
 
