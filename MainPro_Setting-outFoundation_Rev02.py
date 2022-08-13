@@ -55,7 +55,7 @@ for i in range(count_PSD):
             F_TYPE2 = FTD[j][0] # Foundation Type
 
             if F_TYPE1 != F_TYPE2:
-                continue # Skip data if  F_TYPE1 is not match to F_TYPE2
+                continue # Skip data if  F_TYPE1 does not match to F_TYPE2
             else:
                 RESULT.append([PIER, CH, np.nan, NCL, ECL, PIER_AzDMS, F_SkewDMS, F_TYPE1])
 
