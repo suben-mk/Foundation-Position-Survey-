@@ -1,6 +1,6 @@
 # Setting-out Foundation
 **Calculation of Setting-out Foundation** was done by Python to help Survey Engineer to do works quickly in Setting out drawing. I used python to calculate 
-a lots of coordinate (Norting&Easting) of foundation which are around 4,000 points at Pier location along the alignment project within 1 seconds.
+a lots of coordinate (Northing&Easting) of foundation which are around 4,000 points at Pier location along the alignment project within 1 seconds.
 And also types of foundation are different. After that I imported points to Autodesk Civil 3D to check the design drawing.
 
 _Result of Setting-out Foundation (Examlple)_
